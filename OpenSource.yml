@@ -1,0 +1,209 @@
+name: Svobodný software a verzování kódu
+summary: "Otevřený kód a svobodný software: místo, kde se potkává technologie a politika. Úvod do verzování kódu a první kroky s Gitem/Githubem."
+tags:
+  - open source
+  - free software
+  - licence
+  - verzování
+  - git
+goals: |
+    V této lekci se seznámíte s ideovými základy volného sdílení kódu (pod názvy „[svobodný software](https://cs.wikipedia.org/wiki/Svobodný_software)“ a „[open source](https://cs.wikipedia.org/wiki/Otevřený_software)“, odkázané stránky na Wikipedii si prolítněte) a naučíte se používat základní nástroje služby Github. 
+    
+    Pojem *open source* nejspíše znáte v souvislosti s velkými projekty jako jsou Open Office, Gimp či Linux: svět drobných, často webových aplikací a nástrojů je však mnohem pestřejší. I díky tomu, že většina nástrojů má velmi specifické užití, můžete mezi veřejnými projekty najít leccos zajímavého: např. [hry](https://github.com/showcases/web-games), [datasety](https://github.com/showcases/open-data), [veřejně prospěšné aplikace](https://github.com/showcases/social-impact), [textové editory](https://github.com/showcases/text-editors) (včetně již vám známého editoru [Brackets](http://brackets.io)) nebo třeba [seznam dostupných smajlíků](https://github.com/arvida/emoji-cheat-sheet.com). [Zdrojový kód](https://github.com/pocitacovykrouzek/versostroj) poskytují například též autoři [Veršostroje](http://www.versostroj.cz), který vznikl na KISKu.
+    
+    Mnoho zdrojových kódů je natolik jednoduchých, že si je před koncem semestru budete schopni sami upravit k obrazu svému.
+    
+    ### Git a Github
+    
+    *„Github je webová služba podporující vývoj softwaru při používání verzovacího nástroje [Git](https://cs.wikipedia.org/wiki/Git) [a] nabízí bezplatný hosting pro open-source projekty.“* ([wiki](https://cs.wikipedia.org/wiki/GitHub)) Díky Git(hub)u můžete kód, který vytváříte, sdílet a komunitně zlepšovat &ndash; ať už jde o webové stránky, mobilní aplikace nebo prosté poznámky z přednášky.
+    
+    Znalost práce s Githubem a schopnost sdílet kód bude klíčová v semestrálním projektu, který budete zpracovávat v rámci některých úkolů zadávaných v Blenderu.
+reading: |
+    Povinné texty jsou zadány v konkrétních úkolech, zde nabízím seznam všech zadaných textů coby doporučenou četbu.
+    
+    ### Svobodný software a open source
+    
+    Texty se zabývají různými důvody, díky kterým je práce s open source programy zajímavá.
+    
+    - [Co je to svobodný software?](http://www.gnu.org/philosophy/free-sw.cs.html)
+    - [The Open Source Definition](https://opensource.org/definition)
+    - [Proprietary Software Is Often Malware](http://www.gnu.org/philosophy/proprietary.html)
+    - [Copyleft: Pragmatic Idealism](http://www.gnu.org/philosophy/pragmatic.html)
+    - [Why Open Source misses the point of Free Software](http://www.gnu.org/philosophy/open-source-misses-the-point.html)
+    - [When Free Software Isn't (Practically) Superior](http://www.gnu.org/philosophy/when-free-software-isnt-practically-superior.html)
+    - [10 Reasons Open Source Is Good for Business](http://www.pcworld.com/article/209891/10_reasons_open_source_is_good_for_business.html)
+    - [Ladislav Lhotka: Svobodný software a základní otázka programování](http://webserver.ics.muni.cz/bulletin/articles/324.html)
+    - [Luděk Matyska: Softwarové patenty](http://webserver.ics.muni.cz/bulletin/articles/331.html)
+    - [7 Reasons Not to Use Open Source Software](http://www.cio.com/article/2378859/open-source-tools/7-reasons-not-to-use-open-source-software.html)
+    - [What are the risks of using open-source software?](https://powermore.dell.com/technology/risks-using-open-source-software/)
+    - [Open Source Is Going Even More Open—Because It Has To](http://www.wired.com/2015/07/open-source-going-even-openbecause/)
+    - [The 10 oldest, significant open-source programs](http://www.zdnet.com/article/the-10-oldest-significant-open-source-programs/)
+    
+    ### Verzování
+    
+    Nejdůležitější text je krátký a výstižný: [Getting your project on GitHub](https://guides.github.com/introduction/getting-your-project-on-github/). Zde se dozvíte, jak snadno pracovat s Git(hub)em pomocí programu Github Desktop. V češtině bohužel nyní dobrý text pro začátečníky, kteří nechtějí používat příkazovou řádku, nejspíše není &ndash; ale kvůli množství specifického žargonu je snad i snadnější číst články v anglickém jazyce.
+    
+    Další texty vesměs popisují základní fungování Gitu a Githubu a zabývají se též základními příkazy, které jsou užitečné pro pokročilé uživatele. Uvádím je především kvůli tomu, že každý popisuje základní fungování malinko jinak a to se vám může hodit.
+    
+    - [GitHub: The beginner's guide](https://www.pluralsight.com/blog/software-development/github-tutorial)
+    - [git - the simple guide](http://rogerdudler.github.io/git-guide/)
+    - [GitHub For Beginners: Don't Get Scared, Get Started](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
+    - [gitglossary(7) Manual Page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) (velmi strohý manuálový glosář)
+    - [Git – WikiKnihy](https://cs.wikibooks.org/wiki/Git#V.C4.9Btev)
+rubrics:
+    - "Vytvořte si fork autorova či autorčina repozitáře pod svým účtem na Githubu. Odkaz na repozitář vložte do odpovědi."
+preface: 
+---
+# informační zdroje
+bloom: apply
+questions: 
+  - "Dohledejte několik webových portálů, které se zabývají svobodným software."
+  - "Dohledejte několik webových portálů, které se zabývají open source."
+  - "Určete zásadní milníky vývoje myšlenky svobodného softwaru."
+---
+# četba free/open sw
+bloom: remember
+vars:
+  article:
+    - "[Co je to svobodný software?](http://www.gnu.org/philosophy/free-sw.cs.html)"
+    - "[The Open Source Definition](https://opensource.org/definition)"
+    - "[Proprietary Software Is Often Malware](http://www.gnu.org/philosophy/proprietary.html)"
+    - "[Copyleft: Pragmatic Idealism](http://www.gnu.org/philosophy/pragmatic.html)"
+    - "[Why Open Source misses the point of Free Software](http://www.gnu.org/philosophy/open-source-misses-the-point.html)"
+    - "[When Free Software Isn't (Practically) Superior](http://www.gnu.org/philosophy/when-free-software-isnt-practically-superior.html)"
+    - "[10 Reasons Open Source Is Good for Business](http://www.pcworld.com/article/209891/10_reasons_open_source_is_good_for_business.html)"
+    - "[Ladislav Lhotka: Svobodný software a základní otázka programování](http://webserver.ics.muni.cz/bulletin/articles/324.html)"
+    - "[Luděk Matyska: Softwarové patenty](http://webserver.ics.muni.cz/bulletin/articles/331.html)"
+    - "[7 Reasons Not to Use Open Source Software](http://www.cio.com/article/2378859/open-source-tools/7-reasons-not-to-use-open-source-software.html)"
+    - "[What are the risks of using open-source software?](https://powermore.dell.com/technology/risks-using-open-source-software/)"
+questions: |
+  Přečtěte si článek **%article%** a zpracujte position paper, který odevzdejte ve formátu [markdown](http://kramdown.gettalong.org/quickref.html). [Position paper](https://en.wikipedia.org/wiki/Position_paper) zpracujte následovně:
+  
+  - Krátce shrňte obsah článku (alespoň 600 znaků).
+  - Popište svůj postoj k textu s důrazem na pro vás kontroverzní, problematické a nebo naopak zajímavé a přínosné pasáže (alespoň 600 znaků).
+  - Položte tři *[otevřené otázky](https://cs.wikipedia.org/wiki/Otázka#Otev.C5.99en.C3.A9)*, které jsou buď obráceny k textu (pokud byste uvítali, aby vám někdo jiný část textu vysvětlil) anebo na něj navazují.
+  
+  Studenti hodnotící váš úkol budou otázky hodnotit a odpovídat na ně &ndash; počítejte s tím, že díky čtení odlišných textů mohou mít různá východiska.
+input: markdown
+rubrics:
+  - checklist: Hodnocení úkolu.
+    items: 
+      - Position paper má požadovaný rozsah.
+      - Shrnutí je srozumitelné.
+      - Autor popisuje vlastní postoj a předkládá pro její podporu několik věcných argumentů. (Pokud si nemyslíte, že dokážete zhodnotit věcnost argumentů, přečtěte si nějaký doplňkový text.)
+      - V úkolu jsou položeny tři otázky, které na text navazují anebo směřují k vyjasnění nejasností v textu.
+  - "Pokuste se odpovědět (v celkovém rozsahu alespoň 1200 znaků) na otázky, které položil/a autor/ka úkolu na základě textu."
+---
+# licence
+bloom: understand
+vars:
+  license: [MIT License, Apache License 2.0, GNU GPL V2, GNU GPL V3, BSD]
+questions: "[Proskenujte si](http://www.literacyportal.eu/kazdodenni-zivot.html&contentid=159) text licence *%license%* a s využitím souvisejících textů, které si sami dohledáte, popište, k čemu a proč je tato licence vhodná."
+rubrics:
+  - checklist: ""
+    items:
+      - "Úkol je splněn dle zadání."
+---
+# organizace a lidé
+bloom: understand
+questions:
+  - "Vyberte pět osob, které jsou důležité v kontextu svobodného softwaru či open source, a stručně je popište."
+  - "Vyberte pět organizací, které jsou důležité v kontextu svobodného softwaru či open source, a stručně je popište."
+rubrics:
+  - checklist: ""
+    items:
+      - "Úkol je splněn dle zadání."  
+---
+bloom: understand
+questions: "Po přečtení některého z textů, který se týká verzovacích nástrojů, stručně popište, jak rozumíte účelu a užití verzovacích systémů při vývoji software. Stručně vysvětlete, co vývoj software obnáší."
+rubrics:
+  - checklist: ""
+    items:
+      - Autor(ka) správně popisuje, z jakých činností se skládá vývoj software.
+      - Autor(ka) správně popisuje účel a užití verzovacích systémů.
+---
+# verzovací systém: termíny
+bloom: remember
+vars:
+  term:
+    - repozitář (repository)
+    - lokální repozitář (local repository)
+    - commit
+    - decentralizace
+    - klonování
+    - diff
+    - checkout
+    - push
+    - pull
+    - repo
+    - větev (branch)
+    - strom (tree)
+    - historie
+questions: "Vysvětlete termín *%term%* v kontextu verzovacího nástroje Git. Uveďte a popište ještě alespoň jeden další termín, na který jste narazili při zjišťování informací, a uveďte, jak souvisí s prvním popisovaným."
+rubrics:
+  - checklist: ""
+    items:
+      - Termín je správně vysvětlen.
+      - Druhý termín je relevantní a je správně vysvětlen.
+---
+bloom: understand
+questions:
+  - "Vysvětlete rozdíl mezi vytvořením větve a forku (termín „fork“ se v češtině v tomto kontextu nepřekládá)."
+  - "Vysvětlete rozdíl mezi forkováním a klonováním."
+  - "Vysvětlete, co je to *pull request*."
+rubrics:
+  - checklist: ""
+    items:
+      - Vysvětlení je úplné a správné.
+---
+# instalace hugo
+bloom: apply
+input: file
+comments: 10
+questions: |
+  **V následujících dvou úkolech si vytvoříte základní prostředí, v němž budeme pracovat po zbytek semestru. Úspěšná instalace obou programů je nezbytná pro splnění velké části úkolů v průběhu semestru.**
+
+  ### Hugo
+
+  Nainstalujte si do svého počítače generátor statických webů [Hugo](https://gohugo.io). Postupujte dle [návodu v dokumentaci](https://gohugo.io/getting-started/installing/).
+
+  - Pokud používáte platformu Windows, využijte pro instalaci balíčkovací manažer [*chocolatey*](https://chocolatey.org). Potřebnou aplikaci pro práci s příkazovou řádkou otevřete snadno: stačí zmáčknout klávesu *Windows*, napsat `cmd` a potvrdit *Enterem*.
+  - Pokud používáte platformu macOS, využijte pro instalaci balíčkovací manažer [*homebrew*](https://brew.sh/). Potřebný terminálový software *Terminal* najdete ve složce `/Applications/Utilities`.
+  - Pokud používáte platformu Linux, dohledejte návod pro svou konkrétní distribuci.
+
+  Instalaci můžete provést i jiným způsobem — podělte se v takovém případě o důvody ve fóru.
+
+  Po instalaci zůstaňte v příkazové řádce a zadejte příkaz `hugo version`. Měla by se vypsat informace o instalované verzi generátoru Hugo. Vytvořte screenshot a odevzdejte ho do přílohy. Do komentáře napište, s jakými problémy jste se při instalaci setkali a jak jste našli řešení.
+
+  > **Pozn.:** Příkazovou řádku budeme později používat ke spouštění Huga a budete potřebovat umět procházet adresářovou strukturou počítače — toto bude vysvětleno u příslušného úkolu.
+rubrics:
+  - checklist: ""
+    items:
+    - Screenshot zobrazuje aplikaci pro práci s příkazovou řádkou, v níž došlo k instalaci generátoru Hugo.
+    - Mezi zadanými příkazy je `hugo version` a je správně zobrazena použitá verze.
+---
+# git: vytvoření vlastního účtu, klonování na vlastní počítač, repozitáře a forku jiného repozitáře
+bloom: apply
+input: code
+questions: |
+  ### Github a git
+
+  Následující postup je platný pro platformy Windows a macOS. Pokud pracujete s Linuxem, využijte ve třetím a posledním kroku namísto aplikace *Github Desktop* [libovolný klient pro práci s gitem](https://www.tecmint.com/best-gui-git-clients-git-repository-viewers-for-linux/), při nastavení klientu a připojení ke Githubu využijte jeho dokumentaci.
+
+  1. Vytvořte si účet ve službě [Github](http://github.com) a vytvořte zde svůj první repozitář (při tvorbě si vyberte licenci a nechte vytvořit soubor `README.md`).
+  
+  2. Vytvořte si někde v počítači složku, do které si budete ukládat podklady z kurzu — včetně repozitářů. Můžete ji umístit kamkoli, doporučuji pro snadnější práci vytvořit složku přímo v kořenové složce snadno dostupné uživateli (tedy např. `C:\nami` na Windows nebo `~\nami` na macOS a v Linuxu).
+  
+  3. Následně si stáhněte program [Github Desktop](http://desktop.github.com), přihlaste se a naklonujte si repozitář (tak, aby byl podsložkou složky vytvořené v kroku #2). Společně s grafickým rozhraním *Github Desktop* se do počítače nainstaluje *git*, který však budete ovládat primárně pomocí grafického rozhraní.
+  
+  4. V textovém editoru si otevřete soubor `README.md` a popište v něm, proč jste tento repozitář založili.
+  
+  6. Pomocí nástroje Github Desktop vytvořte commit se změnami v souboru `README.md` (commit stručně popište). Pak sesynchronizujte váš *domácí repozitář* s *repozitářem umístěným v internetu* (tzn. ve službě Github).
+  
+  Do odpovědi vložte adresu vašeho repozitáře.
+rubrics:
+  - checklist: ""
+    items:
+    - Repozitář je vytvořený.
+    - Repozitář obsahuje soubor README, který obsahuje zadaný obsah.
+    - Commit, v němž je obsažena změna souboru README je vhodně popsaný.
