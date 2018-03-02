@@ -1,0 +1,25 @@
+bloom: remember
+vars:
+  term:
+    - repozitář (repository)
+    - lokální repozitář (local repository)
+    - commit
+    - decentralizace
+    - klonování
+    - diff
+    - checkout
+    - push
+    - pull
+    - repo
+    - větev (branch)
+    - strom (tree)
+    - historie
+questions: >-
+  Vysvětlete termín *%term%* v kontextu verzovacího nástroje Git. Uveďte a
+  popište ještě alespoň jeden další termín, na který jste narazili při
+  zjišťování informací, a uveďte, jak souvisí s prvním popisovaným.
+rubrics:
+  - checklist: ''
+    items:
+      - Termín je správně vysvětlen.
+      - Druhý termín je relevantní a je správně vysvětlen.

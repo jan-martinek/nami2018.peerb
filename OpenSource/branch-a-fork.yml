@@ -1,0 +1,11 @@
+bloom: understand
+questions:
+  - >-
+    Vysvětlete rozdíl mezi vytvořením větve a forku (termín „fork“ se v češtině
+    v tomto kontextu nepřekládá).
+  - Vysvětlete rozdíl mezi forkováním a klonováním.
+  - 'Vysvětlete, co je to *pull request*.'
+rubrics:
+  - checklist: ''
+    items:
+      - Vysvětlení je úplné a správné.

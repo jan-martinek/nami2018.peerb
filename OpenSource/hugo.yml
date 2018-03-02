@@ -1,0 +1,52 @@
+bloom: apply
+input: file
+comments: 10
+questions: >
+  **V následujících dvou úkolech si vytvoříte základní prostředí, v němž budeme
+  pracovat po zbytek semestru. Úspěšná instalace obou programů je nezbytná pro
+  splnění velké části úkolů v průběhu semestru.**
+
+
+  ### Hugo
+
+
+  Nainstalujte si do svého počítače generátor statických webů
+  [Hugo](https://gohugo.io). Postupujte dle [návodu v
+  dokumentaci](https://gohugo.io/getting-started/installing/).
+
+
+  - Pokud používáte platformu Windows, využijte pro instalaci balíčkovací
+  manažer [*chocolatey*](https://chocolatey.org). Potřebnou aplikaci pro práci s
+  příkazovou řádkou otevřete snadno: stačí zmáčknout klávesu *Windows*, napsat
+  `cmd` a potvrdit *Enterem*.
+
+  - Pokud používáte platformu macOS, využijte pro instalaci balíčkovací manažer
+  [*homebrew*](https://brew.sh/). Potřebný terminálový software *Terminal*
+  najdete ve složce `/Applications/Utilities`.
+
+  - Pokud používáte platformu Linux, dohledejte návod pro svou konkrétní
+  distribuci.
+
+
+  Instalaci můžete provést i jiným způsobem — podělte se v takovém případě o
+  důvody ve fóru.
+
+
+  Po instalaci zůstaňte v příkazové řádce a zadejte příkaz `hugo version`. Měla
+  by se vypsat informace o instalované verzi generátoru Hugo. Vytvořte
+  screenshot a odevzdejte ho do přílohy. Do komentáře napište, s jakými problémy
+  jste se při instalaci setkali a jak jste našli řešení.
+
+
+  > **Pozn.:** Příkazovou řádku budeme později používat ke spouštění Huga a
+  budete potřebovat umět procházet adresářovou strukturou počítače — toto bude
+  vysvětleno u příslušného úkolu.
+rubrics:
+  - checklist: ''
+    items:
+      - >-
+        Screenshot zobrazuje aplikaci pro práci s příkazovou řádkou, v níž došlo
+        k instalaci generátoru Hugo.
+      - >-
+        Mezi zadanými příkazy je `hugo version` a je správně zobrazena použitá
+        verze.

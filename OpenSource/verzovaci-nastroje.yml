@@ -1,0 +1,10 @@
+bloom: understand
+questions: >-
+  Po přečtení některého z textů, který se týká verzovacích nástrojů, stručně
+  popište, jak rozumíte účelu a užití verzovacích systémů při vývoji software.
+  Stručně vysvětlete, co vývoj software obnáší.
+rubrics:
+  - checklist: ''
+    items:
+      - 'Autor(ka) správně popisuje, z jakých činností se skládá vývoj software.'
+      - Autor(ka) správně popisuje účel a užití verzovacích systémů.
