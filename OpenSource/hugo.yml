@@ -1,42 +1,43 @@
 bloom: apply
 input: file
 comments: 10
-questions: >
+questions: |
   **V následujících dvou úkolech si vytvoříte základní prostředí, v němž budeme
   pracovat po zbytek semestru. Úspěšná instalace obou programů je nezbytná pro
   splnění velké části úkolů v průběhu semestru.**
 
-
   ### Hugo
-
 
   Nainstalujte si do svého počítače generátor statických webů
   [Hugo](https://gohugo.io). Postupujte dle [návodu v
   dokumentaci](https://gohugo.io/getting-started/installing/).
 
-
-  - Pokud používáte platformu Windows, využijte pro instalaci balíčkovací
+  - **Pokud používáte platformu Windows**, využijte pro instalaci balíčkovací
   manažer [*chocolatey*](https://chocolatey.org). Potřebnou aplikaci pro práci s
   příkazovou řádkou otevřete snadno: stačí zmáčknout klávesu *Windows*, napsat
-  `cmd` a potvrdit *Enterem*.
-
-  - Pokud používáte platformu macOS, využijte pro instalaci balíčkovací manažer
+  `cmd` a potvrdit *Enterem*. Následujte pak návod pro cmd.exe a po úspěšné
+  instalaci se vraťte k návodu instalace Hugo.
+    
+  > **Tip:** Pokud na vás vyskočí chyba, která zmiňuje potřebu administrátorských 
+  pravomocí, využijte namísto **cmd** jinou příkazovou řádku dostupnou ve Windows,
+  Powershell. Je nutné jej spustit coby administrátor, což 
+  [není složité](https://www.top-password.com/blog/5-ways-to-run-powershell-as-administrator-in-windows-10/). 
+  Následujte pak návod pro Powershell.exe.
+  
+  - **Pokud používáte platformu macOS**, využijte pro instalaci balíčkovací manažer
   [*homebrew*](https://brew.sh/). Potřebný terminálový software *Terminal*
   najdete ve složce `/Applications/Utilities`.
-
-  - Pokud používáte platformu Linux, dohledejte návod pro svou konkrétní
+  
+  - **Pokud používáte platformu Linux**, dohledejte návod pro svou konkrétní
   distribuci.
-
 
   Instalaci můžete provést i jiným způsobem — podělte se v takovém případě o
   důvody ve fóru.
-
 
   Po instalaci zůstaňte v příkazové řádce a zadejte příkaz `hugo version`. Měla
   by se vypsat informace o instalované verzi generátoru Hugo. Vytvořte
   screenshot a odevzdejte ho do přílohy. Do komentáře napište, s jakými problémy
   jste se při instalaci setkali a jak jste našli řešení.
-
 
   > **Pozn.:** Příkazovou řádku budeme později používat ke spouštění Huga a
   budete potřebovat umět procházet adresářovou strukturou počítače — toto bude

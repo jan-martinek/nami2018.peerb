@@ -1,26 +1,32 @@
 bloom: apply
 input: code
-questions: >
+questions: |
   ### Github a git
 
+  Následující postup je platný pro platformy Windows 64-bit a macOS.
 
-  Následující postup je platný pro platformy Windows a macOS. Pokud pracujete s
-  Linuxem, využijte ve třetím a posledním kroku namísto aplikace *Github
+  - **Pokud pracujete s 32-bitovou verzí Windows** ([jak to 
+  zjistím?](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)), 
+  využijte využijte ve třetím a posledním kroku namísto aplikace *Github
+  Desktop* klient [GitKraken](https://www.gitkraken.com/). Pro instalaci existuje 
+  [příjemný návod](https://support.gitkraken.com/how-to-install), snadno se [integruje 
+  s Githubem](https://support.gitkraken.com/integrations/github) a pro nekomerční užití je zdarma.
+
+  - **Pokud pracujete s Linuxem**, využijte ve třetím a posledním kroku namísto aplikace *Github
   Desktop* [libovolný klient pro práci s
   gitem](https://www.tecmint.com/best-gui-git-clients-git-repository-viewers-for-linux/),
   při nastavení klientu a připojení ke Githubu využijte jeho dokumentaci.
 
+  #### Návod
 
   1. Vytvořte si účet ve službě [Github](http://github.com) a vytvořte zde svůj
   první repozitář (při tvorbě si vyberte licenci a nechte vytvořit soubor
   `README.md`).
 
-
   2. Vytvořte si někde v počítači složku, do které si budete ukládat podklady z
   kurzu — včetně repozitářů. Můžete ji umístit kamkoli, doporučuji pro snadnější
   práci vytvořit složku přímo v kořenové složce snadno dostupné uživateli (tedy
   např. `C:\nami` na Windows nebo `~\nami` na macOS a v Linuxu).
-
 
   3. Následně si stáhněte program [Github Desktop](http://desktop.github.com),
   přihlaste se a naklonujte si repozitář (tak, aby byl podsložkou složky
@@ -28,15 +34,12 @@ questions: >
   počítače nainstaluje *git*, který však budete ovládat primárně pomocí
   grafického rozhraní.
 
-
   4. V textovém editoru si otevřete soubor `README.md` a popište v něm, proč
   jste tento repozitář založili.
-
 
   6. Pomocí nástroje Github Desktop vytvořte commit se změnami v souboru
   `README.md` (commit stručně popište). Pak sesynchronizujte váš *domácí
   repozitář* s *repozitářem umístěným v internetu* (tzn. ve službě Github).
-
 
   Do odpovědi vložte adresu vašeho repozitáře.
 rubrics:
