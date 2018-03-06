@@ -1,0 +1,26 @@
+bloom: create
+time: 15
+input: markdown
+questions: |
+  Na základě vašich stávajících zájmů si vyberte téma, které byste chtěli zpracovávat během semestrálního projektu.
+
+  > Výsledkem projektu bude webová stránka, která informuje o nějakém fenoménu (osobnost, kulturní fenomén, technologie, historický jev, cokoli…): mělo by jít o téma, o kterém není na českém webu dostatek informací anebo jste schopni poskytnout vlastní zajímavý pohled na něj.
+  
+  Popis tématu strukturujte následovně:
+    
+  - **název tématu:**  
+    výstižný a unikátní název
+  - **cíl:**  
+    krátký odstavec do 140 znaků, v němž popíšete, čeho byste chtěli dosáhnout
+  - **kontext:**  
+    2–3 odstavce (alespoň 500 znaků), které popisují širší kontext daného fenoménu, odkazují na zdroje apod.
+    
+  Počítejte s tím, že veškeré výstupy v předmětu budou licencovány pod některou z otevřených licencí (výběr bude na vás).
+
+  > **Pozn.:** Není možné témata navrhovat společně v již dohodnutých skupinách, každý musí odevzdat vlastní téma.
+rubrics:
+  - checklist: ""
+    items:
+      - Rozsah jednotlivých částí odpovídá zadání.
+      - Autor ukazuje, že téma není v českém kontextu dobře popsáno, popř. na něj může nabídnout zajímavý pohled.
+      - V závěrečné části je odkazováno několik relevantních zdrojů.

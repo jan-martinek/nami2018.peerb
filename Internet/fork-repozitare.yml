@@ -1,0 +1,46 @@
+bloom: apply
+questions: >
+  Najděte repozitář, který někdo z vašich kolegyň a kolegů vytvořil v předchozí
+  lekci — můžete využít některého repozitáře z úkolů, které jste dostali k
+  hodnocení, doptat se pomocí diskusního fóra či jiným neformálním způsobem.
+
+
+  1. *Forkněte* si tento repozitář a *naklonujte* si ho na vlastní počítač
+  pomocí aplikace Github Desktop.
+
+  2. Přidejte do projektu vlastní soubor ve formátu markdown (s koncovkou .md),
+  do nějž vepište text své oblíbené pohádky (můžete využít textu z internetu,
+  **který je dostupný pod otevřenou licencí (tu případně uveďte)** anebo text
+  pohádky sami parafrázujte). 
+
+  3. Soubor vhodně pojmenujte dle názvu pohádky a v textu použijte alespoň jeden
+  ilustrační obrázek (pokud obrázak sami nevytvoříte, dbejte na soulad s licencí, 
+  pod níž je daný obrázek sdílen). Danou úpravu commitněte najednou (oba soubor 
+  v jednom commitu) a sesynchronizujte do vlastního repozitáře umístěného na Githubu.
+
+  3. Vytvořte [*pull
+  request*](https://help.github.com/articles/about-pull-requests/) vůči
+  původnímu repozitáři.
+
+
+  Do vstupního pole vložte adresu vytvořeného pull requestu.
+
+
+  Do komentáře krátce popište, co je to pull request a vlastními slovy popište,
+  jak jej vytvořit na serveru Github. (Více informací najdete [přímo na
+  Githubu](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/).)
+
+
+  > **Pozn.:** Jako autoři pull requestu máte mnoho „nástrojů“ k tomu, abyste dosáhli toho, že
+  váš pull request bude přijat a bude přijat rychle (a tyto nijak nesouvisí s vyhrožováním :)). 
+  Využijte jich.
+input: markdown
+comments: 4
+rubrics:
+  - checklist: ''
+    items:
+      - Pull request je správně vytvořený.
+      - Commit obsahující změnu je vhodně popsaný.
+      - >-
+        Pojem pull request je vysvětlený a je popsán postup, kterým se na
+        Githubu vytváří.
