@@ -1,0 +1,21 @@
+bloom: apply
+questions: >
+  V minulém úkolu vám možná kolegové zaslali do repozitáře pohádku (snad i
+  několik): vytvořené pull requesty schvalte a do komentáře vložte informaci o
+  počtu přijatých pohádek a odkazy na přijaté pull requesty.
+
+
+  Pokud jste doposud žádný pull request nedostali, **vyžádejte si pohádku od
+  někoho z kolegů v kurzu nyní** (dle zadání jako v předchozí lekci) a splňte
+  zadání.
+
+
+  > **Pozn.:** Tento kurz se věnuje spolupráci na internetu — proto v něm budou
+  podobně „interaktivní“ úkoly častější.
+rubrics:
+  - checklist: ''
+    items:
+      - V odpovědi je uveden odkaz na pull request.
+      - >-
+        Pull request je směřován na stejný repozitář, jako byl použit v úkolu č.
+        4.

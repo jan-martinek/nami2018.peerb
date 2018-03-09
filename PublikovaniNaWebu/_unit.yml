@@ -1,0 +1,22 @@
+summary: >-
+  Jak publikovat obsah na webu? Výhody služeb, CMS a generovaných webů. Úvod do
+  kaskádových stylů.
+goals: >
+  **Cílem této lekce je porozumět dostupným způsobům publikování informací na
+  webu a naučit se základy CSS.**  
+tags:
+  - web publishing
+  - CMS
+  - static site generator
+  - cascading style sheets
+rubrics:
+  - Slovně zhodnoťte případné nedostatky tohoto úkolu.
+title: Publikování na webu
+outline:
+  - reading.md
+  - zpusoby-publikovani.yml
+  - css-intro.md
+  - css-prvni-kroky.yml
+  - css-mooc.yml
+  - stylovani.yml
+  - pull-request-2.yml
