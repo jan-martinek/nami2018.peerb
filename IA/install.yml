@@ -1,0 +1,68 @@
+bloom: apply
+input: file
+time: 45
+questions: |
+  V dalším kroku začneme konečně pracovat s generátorem statických webů Hugo,
+  který jsme si nainstalovali v první lekci.
+
+  ### Krok za krokem
+
+  - Stáhněte si 
+  [předpřipravenou sadu pro práci s Hugo](https://github.com/jan-martinek/hugo-start/releases) 
+  a rozbalte ji do své složky, kde máte i jiné věci související s předmětem.
+  Výsledná složka by se měla jmenovat `hugo-start`. (Dejte pozor na to, abyste
+  archiv skutečně rozbalili — nestačí jej otevřít.)
+
+  - Otevřete svou aplikaci pro práci s příkazovou řádkou a otevřete si složku, kterou jste právě
+  vytvořili. 
+  - Pokud pracujete s Windows Powershell, vypadá potřebný příkaz přibližně takto:
+  `Set-Location "C:\nami\hugo-start"`.
+  - Pokud pracujete s macOS nebo s Linuxem, vypadá potřebný příkaz přibližně takto:
+  `cd ~/nami/hugo-start/`.
+
+  - Nyní spusťte příkaz `hugo server`. Pokud je vše v pořádku, měl by vyskočit přibližně 
+  následující text:
+  
+  
+  <pre><code>$ hugo server
+
+                     | EN  
+  +------------------+----+
+    Pages            | 21  
+    Paginator pages  |  0  
+    Non-page files   |  0  
+    Static files     |  2  
+    Processed images |  0  
+    Aliases          |  0  
+    Sitemaps         |  1  
+    Cleaned          |  0  
+
+  Total in 30 ms
+  Watching for changes in /Users/<username>/Projects/start/{content,data,layouts,static}
+  Serving pages from memory
+  Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+  Web Server is available at http://localhost:1313/hugo-start/ (bind address 127.0.0.1)
+  Press Ctrl+C to stop
+  </code></pre>
+
+
+  - Pokud něco nefunguje, vyřešte problémy — mrkněte na sekci 
+  [Troubleshooting](https://github.com/jan-martinek/hugo-start#troubleshooting) v repozitáři 
+  hugo-start.
+
+  - Následně v souboru `config.yaml` změňte název webu (parametr `title` — k úpravě použijte Sublime 
+  Text): vložte do něj název tématu z předchozího úkolu. 
+
+  > **Pozn.:** Pokud název obsahuje dvojtečku nebo jiný důležitý znak (sledujte, zda funguje správně
+  zvýrazňování v Sublime Text), musíte řetězec obalit uvozovkami.
+
+  - Odevzdejte otisk obrazovky, na němž je vidět webový prohlížeč, který
+  zobrazuje doma zprovozněný hugo-start s upraveným názvem webu. (Příliš
+  nezáleží na kvalitě obrázku, takže jej můžete odevzdat ve formátu JPEG.)
+rubrics:
+  - checklist: ''
+    items:
+      - Otisk obrazovky zobrazuje stránku s upraveným názvem dle zadání.
+      - >-
+        V prohlížeči je patrná adresa, která je směřována na `localhost` (popř.
+        na ekvivalentní IP adresu `127.0.0.1`).

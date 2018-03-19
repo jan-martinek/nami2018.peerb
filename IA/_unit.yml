@@ -1,0 +1,32 @@
+summary: >-
+  V návazné lekci se seznámíme se základy informační architektury, prohloubíme
+  znalost práce s CSS a načneme semestrální projekt.
+tags:
+  - Informační architektura
+  - IA
+  - Cascading Style Sheets
+  - CSS
+  - Projekt
+  - Ustavení tématu
+  - Hugo
+goals: >
+  **Cílem této lekce je posunout se od teoretické znalosti webových technologií
+  k jejich používání při práci s obsahem.**
+
+
+  Krom základního vhledu do informační architektury nahlédneme hlouběji se
+  naučíme lépe používat CSS styly a rozběhneme si web na platformě Hugo, který
+  nám ve zbytku semestru poslouží jako základ semestrálního projektu.
+time: 2h
+rubrics:
+  - Slovně zhodnoťte případné nedostatky tohoto úkolu.
+title: Publikování na webu v praxi
+outline:
+  - reading.md
+  - ia.yml
+  - ia-pojmy.yml
+  - ia-definice.yml
+  - pohadka-motiv.yml
+  - install.yml
+  - publikace-webu.yml
+  - tym.yml

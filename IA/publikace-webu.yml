@@ -1,0 +1,50 @@
+bloom: apply
+input: code
+time: 20
+questions: >
+  Vaši instalaci hugo-start následně nahoďte na Github do nového repozitáře, který
+  pojmenujte `hugo-start`, a zprovozněte jeho zobrazování pomocí Github Pages.
+  Tím se tento web zobrazí na internetu a bude dostupný komukoli.
+
+
+  ### Krok za krokem
+
+
+  1. Nejprve vytvořte nový repozitář na Githubu, vytvořte jej s README souborem.
+
+  2. Repozitář naklonujte do svého počítače: git vám nedovolí naklonovat repozitář do
+  složky, která již obsahuje soubory. Nejsnadnější postup je následující:
+    1. nejprve přejmenujte existující složku,
+    2. naklonujte repozitář,
+    3. a přesuňte soubory z původní složky do té nově vytvořené. 
+    (Soubor README přepište, původní složku můžete smazat.)
+  
+  3. V aplikaci Github Desktop byste nyní měli vidět mnoho nových souborů v
+  právě naklonovaném repozitáři. Vytvořte commit, který obsahuje všechny změny a
+  sesynchronizujte repozitář s Githubem.
+
+  4. Přímo na webu Github.com běžte do nového repozitáře a v nastaveních
+  (Settings) vyberte složku `/docs` coby zdrojovou větev pro Github Pages. Volbu
+  uložte. Během krátké doby (max. několika minut) by se měla v tomto bloku
+  objevit zpráva *„Your site is published at https://<název vašeho
+  účtu>.github.io/hugo-start/“.* Vytvořená stránka by měla být stejná jako ta, 
+  kterou vidíte přímo ve svém počítači.
+
+
+  Do vstupního pole vložte adresu nového repozitáře na Githubu a adresu nového
+  webu na Github Pages (tzn. adresu z posledního kroku postupu).
+
+
+  > **Tip:** Pokud při zpracování vašeho webu na Github Pages k problémům, měl
+  by vám přijít e-mail s popisem chyb. Možná skončí ve spamu, tak to případně
+  zkontrolujte. Nicméně pokud jste dodrželi popsaný postup, nemělo by dojít k
+  žádným problémům.
+rubrics:
+  - checklist: ''
+    items:
+      - >-
+        Repozitář je správně vytvořený a obsahuje hugo-start s upraveným
+        názvem (title) webu.
+      - >-
+        Web pracující na platformě Github Pages je funkční a zobrazuje obsah
+        vygenerovaný z odkazovaného repozitáře.
