@@ -10,20 +10,30 @@ questions: >
   ### Krok za krokem
 
 
-  1. Nejprve vytvořte nový repozitář na Githubu, vytvořte jej s README souborem.
+  1. Pomocí příkazu `hugo` (bez dalších dodatků, jako např. `hugo server`) zaktualizujete složku
+  `/docs` v níž se nachází vytvořený web.
 
-  2. Repozitář naklonujte do svého počítače: git vám nedovolí naklonovat repozitář do
+
+  2. Pak vytvořte nový repozitář na Githubu, vytvořte jej s README souborem.
+
+
+  3. Repozitář naklonujte do svého počítače: git vám nedovolí naklonovat repozitář do
   složky, která již obsahuje soubory. Nejsnadnější postup je následující:
+    
     1. nejprve přejmenujte existující složku,
+    
     2. naklonujte repozitář,
+    
     3. a přesuňte soubory z původní složky do té nově vytvořené. 
     (Soubor README přepište, původní složku můžete smazat.)
+
   
-  3. V aplikaci Github Desktop byste nyní měli vidět mnoho nových souborů v
+  4. V aplikaci Github Desktop byste nyní měli vidět mnoho nových souborů v
   právě naklonovaném repozitáři. Vytvořte commit, který obsahuje všechny změny a
   sesynchronizujte repozitář s Githubem.
 
-  4. Přímo na webu Github.com běžte do nového repozitáře a v nastaveních
+
+  5. Přímo na webu Github.com běžte do nového repozitáře a v nastaveních
   (Settings) vyberte složku `/docs` coby zdrojovou větev pro Github Pages. Volbu
   uložte. Během krátké doby (max. několika minut) by se měla v tomto bloku
   objevit zpráva *„Your site is published at https://<název vašeho
