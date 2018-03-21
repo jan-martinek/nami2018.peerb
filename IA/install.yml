@@ -15,9 +15,11 @@ questions: |
 
   - Otevřete svou aplikaci pro práci s příkazovou řádkou a otevřete si složku, kterou jste právě
   vytvořili. 
-  - Pokud pracujete s Windows Powershell, vypadá potřebný příkaz přibližně takto:
+    
+  > - Pokud pracujete s Windows Powershell, vypadá potřebný příkaz přibližně takto:
   `Set-Location "C:\nami\hugo-start"`.
-  - Pokud pracujete s macOS nebo s Linuxem, vypadá potřebný příkaz přibližně takto:
+  >  
+  > - Pokud pracujete s macOS nebo s Linuxem, vypadá potřebný příkaz přibližně takto:
   `cd ~/nami/hugo-start/`.
 
   - Nyní spusťte příkaz `hugo server`. Pokud je vše v pořádku, měl by vyskočit přibližně 
