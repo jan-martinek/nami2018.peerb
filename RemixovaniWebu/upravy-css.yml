@@ -1,0 +1,74 @@
+bloom: apply
+time: 2h
+params:
+  user:
+    - '[OlgaStankova](https://github.com/OlgaStankova/)'
+    - '[darbak](https://github.com/darbak/)'
+    - '[Jirka941](https://github.com/Jirka941/)'
+    - '[marekmalik](https://github.com/marekmalik/)'
+    - '[keelel](https://github.com/keelel/)'
+    - '[Eli288](https://github.com/Eli288/)'
+    - '[doubravap](https://github.com/doubravap/)'
+    - '[BarbieS](https://github.com/BarbieS/)'
+    - '[janfitz](https://github.com/janfitz/)'
+    - '[Pavlucie](https://github.com/Pavlucie/)'
+    - '[awfulthings](https://github.com/awfulthings/)'
+    - '[406665](https://github.com/406665/)'
+    - '[ukolydonami](https://github.com/ukolydonami/)'
+    - '[marketWO](https://github.com/marketWO/)'
+    - '[kacenka1234](https://github.com/kacenka1234/)'
+    - '[dassan2](https://github.com/dassan2/)'
+    - '[jakalex](https://github.com/jakalex/)'
+    - '[kamilajezova](https://github.com/kamilajezova/)'
+    - '[447937](https://github.com/447937/)'
+    - '[gazos6](https://github.com/gazos6/)'
+    - '[Tonyzmuni](https://github.com/Tonyzmuni/)'
+    - '[Mandarinka89](https://github.com/Mandarinka89/)'
+    - '[dovikba07](https://github.com/dovikba07/)'
+    - '[Nymeria2](https://github.com/Nymeria2/)'
+    - '[Venda142](https://github.com/Venda142/)'
+    - '[bramambora](https://github.com/bramambora/)'
+    - '[ZdePos](https://github.com/ZdePos/)'
+    - '[Michelle244](https://github.com/Michelle244/)'
+    - '[pribylmatous](https://github.com/pribylmatous/)'
+    - '[TerraDV](https://github.com/TerraDV/)'
+    - '[LostPeanut](https://github.com/LostPeanut/)'
+    - '[472622](https://github.com/472622/)'
+    - '[kubikovav25](https://github.com/kubikovav25/)'
+    - '[CandyCaneLane94](https://github.com/CandyCaneLane94/)'
+    - '[EllenBloom](https://github.com/EllenBloom/)'
+    - '[Honzala](https://github.com/Honzala/)'
+    - '[mrkvickamahlad](https://github.com/mrkvickamahlad/)'
+    - '[Gabiss66](https://github.com/Gabiss66/)'
+    - '[NariemX](https://github.com/NariemX/)'
+    - '[sulkari](https://github.com/sulkari/)'
+    - '[JakubDezort](https://github.com/JakubDezort/)'
+    - '[Janey97](https://github.com/Janey97/)'
+questions: >
+  Najděte ve vlastních repozitářích uživatele/ky %user% pohádku, kterou
+  vytvořil/a během některé z předchozích lekcí. 
+
+
+  Repozitář si naklonujte, opravte či vylepšete kód CSS, a dané změny commitněte
+  (dobře popište, co a proč jste změnili) a pošlete změny pomocí pull requestu
+  zpět autorovi. 
+
+
+  Na změnách se můžete dopředu domluvit s vlastníkem repozitáře, aby byl výsledek přijat.
+  Pokud změny nebude chtít přijmout, přepracujte je (případnou diskusi o požadavcích veďte pomocí
+  komentářů u pull requestu).
+
+
+  Do vstupního pole vložte odkaz na pull request.
+input: html
+rubrics:
+  - checklist: ''
+    items:
+      - V odpovědi je odkaz na pull request.
+      - >-
+        Kód je vylepšený a autor úpravy vhodně popisuje, v čem vylepšení
+        spočívá.
+      - >-
+        Commit a pull request jsou dobře okomentované (popisy se mohou
+        shodovat).
+      - Pull request byl přijat autorem či autorkou původního repozitáře.

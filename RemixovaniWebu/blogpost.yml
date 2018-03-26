@@ -1,0 +1,31 @@
+bloom: apply
+time: 30
+questions: >
+  Na základě tématu, které jste navrhli ve druhé lekci, najděte relevantní webový obsah, 
+  který byste mohli vložit pomocí výše popsaných metod na web vytvořený pomocí generátoru Hugo. 
+  Vytvořte nový článek ve složce `content/post` (můžete použít příkaz `hugo new post/<nazev>.md`) 
+  a do něj vložte embedovaný obsah a komentář, proč jste jej vybrali. Článek opatřete titulkem.
+  
+
+  Pak ještě upravte proměnnou `baseURL` v souboru `config.yaml` tak, aby obsahovala adresu
+  vašeho publikovaného webu (měla by být ve tvaru `https://<název vašeho
+  účtu>.github.io/hugo-start/`, takže stačí vyměnit název účtu). Díky tomu se publikovaný
+  web bude zobrazovat i s aplikovanými styly.
+
+
+  Zkontrolujte pomocí `hugo server`, zda se článek zobrazuje správně a případně obsah upravte.
+  Následně vygenerujte aktualizovaný web (příkaz `hugo`) a změněné soubory ve složce `/docs`
+  commitněte společně se článkem a aktualizovaným souborem `config.yaml`.
+
+
+  Do vstupního pole vložte odkaz na commit na Githubu a na publikovaný článek na webu (na doméně
+  github.io).
+input: html
+rubrics:
+  - checklist: ''
+    items:
+      - V odpovědi je odkaz na správný commit.
+      - >-
+        V odpovědi je funkční odkaz na konkrétní článek.
+      - Vložený obsah se správně zobrazuje na odkazované stránce.
+      - Obsah je tematicky vhodně zvolený (je možné to odvodit z komentáře).

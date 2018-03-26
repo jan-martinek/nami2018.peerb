@@ -1,0 +1,32 @@
+bloom: create
+time: 3h
+questions: |
+  **Společně s dalšími členy vašeho týmu** promyslete následující náležitosti vašeho projektu:
+    
+  > Pokud nejste zatím součástí žádného z týmu, domluvte se na spolupráci. [Všechna témata jsou k nahlédnutí zde](http://jan-martinek.com/tmp/nami18/). Domluvte se s kolegy na složení týmu (využijte ISový mail, osobní kontakt, [hledací vlákno ve fóru](https://is.muni.cz/auth/cd/1421/jaro2018/VIKBA07/hledani) či jiný kanál) a zapište svůj tým do předepsaných políček [tabulce](https://docs.google.com/spreadsheets/u/0/d/1fZoMARl03u6ZgtOytoCdhu_VAAZa2Mb3Ei_j2w6x7yg/edit). 
+  
+  1. Cílovou skupinu či skupiny (buďte konkrétní — „kdokoli“ a podobné definice jsou nepřípustné)
+  2. Cíl webu (alespoň 280 znaků)
+  3. Název webu
+  4. Seznam alespoň 5 zásadních webových zdrojů, které se věnují stejné oblasti
+  5. Seznam alespoň 5 zásadních ne-webových zdrojů, které se věnují stejné oblasti
+  6. Prozkoumejte dostupná multimédia (obrázky, videa atp.) a odkažte na ně
+  7. Vizuální inspiraci pro budoucí vzhled webu (weby, obrázky, designové prvky atp.)
+  8. Základní obsah k tématu (alespoň 10 odrážek v logické struktuře)
+  9. Strategii zveřejňování obsahu: jaké informace a jakým způsobem budete zveřejňovat?
+  
+  **Vše umístětě v logické struktuře na stránku *About*** (najdete ji v souboru `about.md` v kořenové složce (můžete ji přejmenovat na „O nás“, „O projektu“ apod.).
+  
+  Do příspěvku v blogu (můžete použít příkaz `hugo new post/<nazev>.md`) popište tým, jeho členy a jejich motivace pro dané téma.
+  
+  > **Tip:** Nenechávejte úkol na poslední chvíli a při tvorbě spolupracujte – na konci semestru bude potřebné (a v testu kontrolované), aby projektu a jeho stavbě rozuměl každý ze členů týmu. Pokud se nemůžete setkat osobně, doporučuji alespoň skupinový online hovor.
+  
+  Do vstupního pole uveďte odkaz na svůj projektový repozitář a na zveřejněnou webovou stránku. V poli pro komentář popište a zhodnoťte, jak proběhla týmová spolupráce (alespoň 300 znaků).
+comments: 10
+rubrics:
+  - checklist: "(Pokud se setkáte se stejným úkolem vícekrát, můžete hodnocení zkopírovat. Věnujte však prosím pozornost komentáři k týmové práci.)"
+    items: 
+      - Úkol je zpracován.
+      - Všechny požadované odkazy a stránky na zveřejněném webu jsou funkční.
+      - Týmová práce je zhodnocena v požadovaném rozsahu.
+  - "Zhodnoťte slovně týmový úkol a v krátkosti porovnejte popsané zkušenosti s týmovou prací s vlastní zkušeností."
