@@ -1,6 +1,11 @@
 bloom: create
 time: 3h
 questions: |
+  V tomto úkolu pracujte s týmovým repozitářem — tzn. repozitářem <em>hugo-start</em> od toho člena týmu,
+  který navrh vaše sdílené téma. Požádejte ji/jej o udělení přístupu (nastavení Settings > Collaborators).
+  Vkládání obsahu tentokrát zajistí majitel repozitáře, v příští lekci se budeme zabývat podrobnějšími
+  pravidly spolupráce.
+
   **Společně s dalšími členy vašeho týmu** promyslete následující náležitosti vašeho projektu:
     
   > Pokud nejste zatím součástí žádného z týmu, domluvte se na spolupráci. [Všechna témata jsou k nahlédnutí zde](http://jan-martinek.com/tmp/nami18/). Domluvte se s kolegy na složení týmu (využijte ISový mail, osobní kontakt, [hledací vlákno ve fóru](https://is.muni.cz/auth/cd/1421/jaro2018/VIKBA07/hledani) či jiný kanál) a zapište svůj tým do předepsaných políček [tabulce](https://docs.google.com/spreadsheets/u/0/d/1fZoMARl03u6ZgtOytoCdhu_VAAZa2Mb3Ei_j2w6x7yg/edit). 
@@ -15,7 +20,7 @@ questions: |
   8. Základní obsah k tématu (alespoň 10 odrážek v logické struktuře)
   9. Strategii zveřejňování obsahu: jaké informace a jakým způsobem budete zveřejňovat?
   
-  **Vše umístětě v logické struktuře na stránku *About*** (najdete ji v souboru `about.md` v kořenové složce (můžete ji přejmenovat na „O nás“, „O projektu“ apod.).
+  **Vše umístětě v logické struktuře na stránku *About*** (najdete ji v souboru `about.md` ve složce /content (můžete jej přejmenovat na „O nás“, „O projektu“ apod. a upravit i název souboru).
   
   Do příspěvku v blogu (můžete použít příkaz `hugo new post/<nazev>.md`) popište tým, jeho členy a jejich motivace pro dané téma.
   
