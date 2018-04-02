@@ -1,0 +1,37 @@
+bloom: create
+questions: >
+  Následující úkol se týká týmového projektu, ale zpracováváte jej samostatně.
+  Cílem je získat vstup od každého člena týmu, který pak pomůže s vytvořením
+  vizuální podoby výsledného webu.
+
+  ***
+
+  Bez nutnosti kódování (tzn. tvorby CSS kódu) navrhněte, jak byste upravili
+  šablony ve vašem týmovém projektu (**vizuální styl, zobrazené informace,
+  struktura informací, informační architektura atp.**).
+
+
+  Neomezujte se na znalosti, které nyní máte: snažte se vytvořit doporučení,
+  která zlepší důvěryhodnost vašeho webu. Nesnažte se být samoúčelně inovativní,
+  využijte spíše konvence, které jsou již na jiných webových stránkách rozšířené
+  (mnohé se můžete naučit i imitací — proto je vhodné přiznat zdroje vaší
+  inspirace a odkázat na ně).
+
+
+  Vytvořte *[moodboard](https://en.wikipedia.org/wiki/Mood_board)*, který
+  shrnuje vizuální prvky, texty, screenshoty, fotky atp. které byste rádi na
+  webu použili. (Ke tvorbě moodboardu můžete použít libovolný online nástroj,
+  který umožňuje zveřejnění výstupu.)
+
+
+  Návrh úprav popište a nezapomeňte přiložit odkaz na vytvořený moodboard.
+  (Očekávaná délka návrhu úprav je alespoň 800 znaků a moodboard by měl
+  obsahovat alespoň 20 objektů, z toho maximálně 4 textové.)
+rubrics:
+  - checklist: ''
+    items:
+      - Úloha je splněna dle zadání.
+      - Moodboard a záměr jsou konzistentní.
+      - 'Je poznat, že navrhované změny souvisí s cílovou skupinou projektu.'
+      - Realizace předloženého návrhu by mohla zlepšit důvěryhodnost webu.
+  - Okomentujte záměr a moodboard.
