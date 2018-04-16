@@ -1,0 +1,64 @@
+bloom: create
+comments: 5
+questions: >
+  #### Další krok týmového projektu
+
+
+  V projektovém týmu si rozdělte níže popsané tři úlohy (nezačínejte, dokud
+  nebudete ve shodě ohledně rozdělení úkolů). Vzájemně si dejte vědět, jak to
+  šlo a na jaké jste narazili problémy (příště se role promění).
+  
+  Před začátkem práce nastavte týmový repozitář na Githubu tak, aby k němu 
+  měli přístup všichni členové týmu (Settings > Collaborators) a větev 
+  master označte jako chráněnou a vyžadující kontrolu před sloučením kódu 
+  (Settings > Branches; Require pull request reviews before merging). V týmovém
+  projektu nadále pracujte ve stejném repozitáři (měl by patřit členu, který
+  téma navrhnul) a
+  [využívejte větví](https://help.github.com/desktop/guides/contributing-to-projects/creating-a-branch-for-your-work/) 
+  a pull requestů.
+
+
+  > **Poznámky:** Na úkolech můžete spolupracovat, ale zodpovědnost za každou z
+  částí přijímá jeden ze členů. Každý člen týmu pracuje s týmovým repozitářem a
+  využívá větví a *pull requestů*. Pokud jste v týmu pouze dva, vynechte první
+  úkol.
+
+
+  1. **(Otevřená) data pro projekt.** Najděte externí data, která je možné ve
+  vašem projektu využít: mohou to být konkrétní data, která se týkají vašeho
+  předmětu zájmu anebo data, která s ním souvisejí (např. nemusí jít o data,
+  která popisují *Ptactvo na jižní Moravě*, ale může jít o databázi ptáků anebo
+  obdobnou datovou sadu z jiného regionu.) Vytvořte nový příspěvek na webu
+  (post), kde odkažte na tyto zdroje a podrobně popište o jaká data jde, pod
+  jakou licencí jsou dostupná a k jakým účelům byste je vy a vaši čtenáři mohli
+  využít. (Přípravu pro tento úkol již možná máte na stránce *o webu*.)
+
+
+  2. **CSS.** Na základě návrhů změn a moodboardů, které
+  jste vy a vaši týmoví kolegové vytvořili v předchozím úkolu (sesbírejte si
+  je), zapracujte změny do CSS. Tentokrát upravujte pouze CSS kód, v další 
+  lekci budeme zasahovat do HTML šablon, což umožní další pokročilé změny.
+  Do vstupního pole popište, jaké změny budete chtít provést přímo v HTML, aby
+  se výsledek dále přiblížil tomu, co naznačují moodboardy.
+
+
+  3. **Nasazení Google Analytics a získání základního přehledu o využitém
+  nástroji.** Na týmový Jekyll nasaďte Google Analytics (postup dohledejte na
+  internetu – není to složité). Do vstupního pole popište, jaké metriky budete
+  měřit (doporučení dohledejte online) a jaké jsou v těchto metrikách cíle
+  vašeho projektu (např. *bounce rate v měsíci květnu bude pod 50 %*).
+
+
+  Na tento úkol si vyhraďte alespoň 3 hodiny, abyste se zvládli domluvit na
+  postupu. Do vstupního pole vložte krom výše zmíněného odkaz na týmový
+  repozitář a případné pull requesty (pohlídejte si, aby byly uzavřené). 
+
+
+  Do pole pro komentář popište a zhodnoťte průběh týmové spolupráce.
+rubrics:
+  - checklist: ''
+    items:
+      - Úkol obsahuje odkazy potřebné pro jeho ohodnocení.
+      - 'Je jasné, kterou týmovou roli zastává autor/ka úkolu.'
+      - Komentář popisující týmovou spolupráci není odbytý.
+  - 'Pokud se ve zpracování týmového úkolu objevují problémy, okomentujte je.'
