@@ -43,7 +43,7 @@ questions: >
 
 
   3. **Nasazení Google Analytics a získání základního přehledu o využitém
-  nástroji.** Na týmový Jekyll nasaďte Google Analytics (postup dohledejte na
+  nástroji.** Na týmové Hugo nasaďte Google Analytics (postup dohledejte na
   internetu – není to složité). Do vstupního pole popište, jaké metriky budete
   měřit (doporučení dohledejte online) a jaké jsou v těchto metrikách cíle
   vašeho projektu (např. *bounce rate v měsíci květnu bude pod 50 %*).
