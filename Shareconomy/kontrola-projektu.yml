@@ -1,0 +1,100 @@
+bloom: evaluate
+params:
+  combinations:
+    - user1: 406665
+      repo1: Web-o-knihach-pro-deti
+      user2: 472622
+      repo2: hugo-start
+    - user1: 472622
+      repo1: hugo-start
+      user2: awfulthings
+      repo2: hugo-start
+    - user1: awfulthings
+      repo1: hugo-start
+      user2: barbies
+      repo2: hugo-start
+    - user1: barbies
+      repo1: hugo-start
+      user2: candycanelane94
+      repo2: hugo-start
+    - user1: candycanelane94
+      repo1: hugo-start
+      user2: dovikba07
+      repo2: hugo-start
+    - user1: dovikba07
+      repo1: hugo-start
+      user2: gazos6
+      repo2: 2
+    - user1: gazos6
+      repo1: 2
+      user2: happyradka
+      repo2: hugo-start
+    - user1: happyradka
+      repo1: hugo-start
+      user2: jirka941
+      repo2: hugo-start
+    - user1: jirka941
+      repo1: hugo-start
+      user2: lostpeanut
+      repo2: hugo-start
+    - user1: lostpeanut
+      repo1: hugo-start
+      user2: marekmalik
+      repo2: conversational-ui
+    - user1: marekmalik
+      repo1: conversational-ui
+      user2: michelle244
+      repo2: hugo-start
+    - user1: michelle244
+      repo1: hugo-start
+      user2: olgastankova
+      repo2: hugo-start
+    - user1: olgastankova
+      repo1: hugo-start
+      user2: pavlucie
+      repo2: hugo-start
+    - user1: pavlucie
+      repo1: hugo-start
+      user2: zdepos
+      repo2: hugo-start
+    - user1: zdepos
+      repo1: hugo-start
+      user2: 406665
+      repo2: Web-o-knihach-pro-deti
+questions: >
+  Vyberte si jeden z níže uvedených webů vytvářených týmově v kurzu (pro případy
+  nefunkčnosti a náhodného přiřazení vašeho vlastního webu jsou nabízeny dvě
+  možnosti):
+
+
+  - %user1%/%repo1% ([repozitář](https://github.com/%user1%/%repo1%),
+  [web](https://%user1%.github.io/%repo1%/))
+
+  - %user2%/%repo2% ([repozitář](https://github.com/%user2%/%repo2%),
+  [web](https://%user2%.github.io/%repo2%/))
+      
+  Komplexně zhodnoťte zpracovaný projekt s ohledem na zadání projektů v průběhu
+  semestru: 
+
+
+  1. Vytvořte pět základních kategorií hodnocení, které argumentačně podložte. 
+
+  2. Následně v každé z těchto kategorií ohodnoťte projekt na stupnici 1–5 (jako
+  ve škole) a hodnocení vždy slovně zdůvodněte.
+
+
+  Celé hodnocení by mělo obsahovat alespoň 1000 znaků.
+input: markdown
+prefill: |
+  # Vybraný web: _________.github.io
+
+  Hodnocení:
+rubrics:
+  - checklist: ''
+    items:
+      - Odpověď má požadovaný rozsah.
+      - Kategorie jsou zvoleny vhodně.
+      - Slovní hodnocení není snadno zpochybnitelné.
+  - >-
+    Krátce okomentujte zvolené kategorie hodnocení. Porovnejte je s kategoriemi,
+    které jste zvolili vy sami.

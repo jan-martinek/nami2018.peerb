@@ -1,0 +1,1 @@
+> **Poznámka:** Jak jsem zdůrazňoval na semináři, při uvažování o fenoménu *sharing economy* se snažte vnímat dvě roviny: technologickou a společenskou. Nové formy sjednávání práce, nové business modely, nové způsoby zprostředkované interakce pomocí mobilních technologií: to vše proměňuje jak fungují lidé, firmy, úřady nebo i města.
