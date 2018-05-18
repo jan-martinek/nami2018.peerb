@@ -1,0 +1,31 @@
+bloom: apply
+time: 1h
+questions: |
+  Zpětné vazby ke konkrétním týmovým projektům najdete na jednom z následujících odkazů: 
+
+  - [406665/Web-o-knihach-pro-deti/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=406665.github.io)
+  - [472622/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=472622.github.io)
+  - [awfulthings/hugo-start](http://tmp.jan-martinek.com/nami18/ukoly.php?p=awfulthings.github.io)
+  - [barbies/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=barbies.github.io)
+  - [candycanelane94/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=candycanelane94.github.io)
+  - [dovikba07/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=dovikba07.github.io)
+  - [happyradka/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=happyradka.github.io)
+  - [jirka941/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=jirka941.github.io)
+  - [marekmalik/conversational-ui/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=marekmalik.github.io)
+  - [michelle244/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=michelle244.github.io)
+  - [olgastankova/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=olgastankova.github.io)
+  - [pavlucie/hugo-start/](http://tmp.jan-martinek.com/nami18/ukoly.php?p=pavlucie.github.io)
+
+  Projděte si zpětnou vazbu ke svému týmovému projektu a identifikujte jeho silné a slabé stránky na základě zpětné vazby. Vyberte si pak konkrétní zmíněný problém a napravte ho přímo v projektu (domluvte se s ostatními v projektu, abyste neopravovali stejný problém). Výsledný pull request by měl mít rozsah alespoň 30 řádků (přidaných, odebraných či změněných).
+
+  Do odpovědi vepište alespoň tři slabé a tři silné stránky vašeho týmově tvořeného webu
+  a vložte odkaz na přijatý pull request, který jeden z těchto problémů napravuje.
+
+  > **Pozn.:** Pokud výše není odkaz na zpětnou vazbu k vašemu projektu, napište to do odpovědi,
+  proveďte sebeevaluaci a vyhodnoťte slabé a silné stránky sami. Následně jeden z problematických
+  aspektů napravte.
+rubrics:
+  - checklist: ''
+    items:
+      - Odpověď obsahuje dobře vybrané slabé a silné stránky, které vychází ze zpětné vazby.
+      - Pull request je vytvořený dle zadání, v potřebném rozsahu a je přijatý.
