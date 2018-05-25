@@ -1,0 +1,62 @@
+params:
+  fontFamily:
+    - 'Georgia, serif'
+    - '''Palatino Linotype'', ''Book Antiqua'', Palatino, serif'
+    - '''Times New Roman'', Times, serif'
+    - 'Arial, Helvetica, sans-serif'
+    - '''Arial Black'', Gadget, sans-serif'
+    - '''Comic Sans MS'', cursive, sans-serif'
+    - 'Impact, Charcoal, sans-serif'
+    - '''Lucida Sans Unicode'', ''Lucida Grande'', sans-serif'
+    - 'Tahoma, Geneva, sans-serif'
+    - '''Trebuchet MS'', Helvetica, sans-serif'
+    - 'Verdana, Geneva, sans-serif'
+    - '''Courier New'', Courier, monospace'
+  fontSize:
+    - 12pt
+    - 20pt
+    - 32pt
+  color:
+    - red
+    - blue
+    - green
+    - yellow
+  misc:
+    - 'text-decoration: underline'
+    - 'font-style: italic'
+    - 'font-weight: bold'
+    - 'font-variant: small-caps'
+    - 'text-align: right'
+    - 'text-align: center'
+    - 'background: brown'
+    - 'background: purple'
+bloom: apply
+questions: >
+  Vepište do elementu `style` CSS deklarace tak, aby se výsledek co nejlépe
+  podobal příkladu (nezasahujte do HTML; rámeček a šedé pozadí nejsou součástí
+  příkladu):
+
+
+  <div style="border: 1px solid #ddd; background: #eee; padding: 20px 20px 0; width: 55%; margin-bottom: 1rem">
+    <p style="font-family: %fontFamily%; font-size: %fontSize%; color: %color%; %misc%">Bezbarvé zelené myšlenky zuřivě spí.</p>
+    <p style="font-family: sans-serif"><i>Noam Chomsky</i></p>
+  </div>
+
+
+  > **Pozn.:** Využijte CSS i pro nastylování prvku `h1`.
+input: livecss
+comments: 1
+prefill: |
+  <h1>Nesmysl</h1>
+  <blockquote>
+    <p>
+      Bezbarvé zelené myšlenky zuřivě spí.
+    </p>
+    <cite>
+      Noam Chomsky
+    </cite>  
+  </blockquote>
+
+  ###css###
+
+  /* do tohoto vstupního pole vložte CSS deklarace */

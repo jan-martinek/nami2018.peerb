@@ -1,0 +1,11 @@
+# IP, DNS
+# iframe, embed
+# api, automatizace, IFTTT, IoT,
+# big data, MapReduce, GA, metriky
+bloom: analyze
+questions:
+  - "Na příkladu z týmového projektu (můžete využít i cizí projekt) vysvětlete, k čemu je užitečné *embedování* (embedding)."
+  - "Popište, jak funguje prvek `iframe`, a ilustrujte to příkladem v libovolném repozitáři, do kterého jste v průběhu kurzu přispěl(a)."
+  - "Popište, jak pracuje služba IFTTT na příkladu „appletu“, který jste zatím v průběhu kurzu nepoužili."
+  - "Popište, co jsou to *big data*, a formulujte vlastní názor na tento fenomén."
+  - "Stručně popište, co je to *Internet of Things* (IoT), a formulujte vlastní názor na tento fenomén."

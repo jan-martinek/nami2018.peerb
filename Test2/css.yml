@@ -1,0 +1,16 @@
+bloom: understand
+questions:
+  - >-
+    Na konkrétním příkladu CSS kódu ve vlastním commitu ukažte selektor třídy
+    (přiložte odkaz na commit).
+  - >-
+    Na konkrétním příkladu CSS kódu ve vlastním commitu popište různé druhy
+    selektorů (přiložte odkaz na commit).
+  - >-
+    Vyjmenujte pět vlastností CSS, které popisují zobrazování textu, a odkažte
+    na konkrétní příklady, kde je prakticky užíváte (odkažte na soubor ve
+    vlastním repozitáři nebo na vlastní commit).
+  - >-
+    Vyjmenujte pět vlastností CSS, které popisují něco jiného, než způsob
+    zobrazení textu, a odkažte na konkrétní příklady, kdy je prakticky užíváte
+    (odkažte na soubor ve vlastním repozitáři nebo na vlastní commit).
