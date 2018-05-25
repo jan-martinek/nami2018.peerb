@@ -1,0 +1,19 @@
+bloom: analyze
+questions:
+  - >-
+    Na příkladech z vlastní praxe (v kurzu i mimo něj) popište způsoby, kterými
+    publikujete webový obsah. Ilustrujte pomocí odkazů, pokud je to možné.
+  - >-
+    Popište, z jakých součástí Hugo generuje stránku (jednotlivé součásti
+    předveďte ve vlastním repozitáři).
+  - >-
+    Vysvětlete, co je to *front matter* v kontextu generátoru Hugo. Předveďte
+    jeho užití na ukázce kódu ve vlastním repozitáři.
+  - >-
+    Vysvětlete vlastními slovy, jak v šabloně Hugo získat obsah proměnné, kterou
+    jste deklarovali v souboru `config.yaml`. Předveďte to na ukázce kódu ve
+    vlastním repozitáři.
+  - >-
+    Vysvětlete vlastními slovy, jak v šabloně Hugo získat obsah proměnné, kterou
+    jste deklarovali ve *front matter* u konkrétního příspěvku (souboru ve
+    složce `content`). Předveďte to na ukázce kódu ve vlastním repozitáři.

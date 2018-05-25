@@ -1,0 +1,19 @@
+bloom: apply
+questions: >
+  **Vytvořte dobrý commit v týmovém repozitáři** přímo na Githubu. Úpravu vložte
+  do nové větve, kterou pojmenujte `test-<uzivatelske-jmeno>` (tedy např.
+  `test-muflon`, pokud by vaše uživatelské jméno na Githubu bylo `muflon`).
+  
+
+  Obsahem commitu může být libovolná drobná úprava, kterou vhodně zdůvodníte a popíšete.
+
+
+  > **Pozn.:** Jak vytvořit commit přímo na Github.com? Najděte na webu v
+  repozitáři konkrétní soubor, otevřte si ho a u zdrojového kódu klikněte na
+  tlačítko „Edit“. 
+
+  > 
+
+  > Pokud chcete vytvořit nový soubor, otevřete si konkrétní složku a buďto
+  nahrajte soubory z vlastního počítače pomocí tlačítka „Upload files“ anebo
+  klikněte na tlačítko „Create new file“ a vytvořte soubor přímo na Githubu.

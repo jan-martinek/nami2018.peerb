@@ -1,0 +1,17 @@
+summary: Závěrečný test kurzu (probíhá na internetu, můžete se připojit z libovolného místa).
+goals: "Cílem lekce je prověření znalostí a dovedností získaných v kurzu."
+rubrics:
+  - Tato lekce není určena ke vzájemnému hodnocení.
+title: Závěrečný test
+outline:
+  - podminky.md
+  - reflexe-a-repa.yml
+  - github-teorie.yml
+  - dobry-a-spatny-commit.yml
+  - dobry-a-spatny-commit-priklady.yml
+  - dobry-commit-prakticky.yml
+  - css-ukazky.yml
+  - css.yml
+  - css-prakticky.yml
+  - teorie.yml
+  - webove-publikovani.yml
